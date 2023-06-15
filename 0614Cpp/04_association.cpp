@@ -15,7 +15,8 @@ public:
 		doctors.push_back(doctor);
 	}
 
-	void MeetDoctor();
+	void MeetDoctor(); // Doctor가 정의되기 전 이므로 클래스 밖에서 정의해야함
+
 
 private:
 	string name;
